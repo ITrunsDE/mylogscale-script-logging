@@ -11,6 +11,7 @@ Companion code for the mylogscale.com ingest how-tos (direct HTTPS to LogScale C
 | `powershell/` | `Initialize-LogScale`, `Write-LogScale` in `Logging.ps1` | `Example.ps1` |
 | `bash/` | `initialize_logscale`, `write_logscale` in `logging.sh` | `example.sh` |
 | `python/` | `initialize_logscale`, `write_logscale` in `logscale.py` | `example.py` |
+| `file-ingest/` | Sample text/JSONL logs, parsers, Windows/Linux collector YAML | — |
 
 Each folder also has:
 
