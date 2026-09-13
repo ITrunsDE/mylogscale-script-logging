@@ -1,0 +1,19 @@
+# Copy to collector.local.yaml and merge these named entries into your existing configuration.
+sinks:
+  powershell_logscale:
+    type: logscale
+    url: "https://YOUR-LOGSCALE-HOST.example"
+    token: "REPLACE_WITH_COLLECTOR_INGEST_TOKEN"
+    queue:
+      type: disk
+      maxLimitInMB: 256
+      fullAction: pause
+
+sources:
+  powershell_files:
+    type: file
+    include:
+      - 'C:\Scripts\LogScaleDemo\logs\Example-*.jsonl'
+    encoding: UTF-8
+    sink: powershell_logscale
+    parser: powershell-jsonl

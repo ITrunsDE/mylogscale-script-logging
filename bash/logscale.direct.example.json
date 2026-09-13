@@ -1,0 +1,9 @@
+{
+  "url": "https://YOUR-LOGSCALE-HOST.example",
+  "ingest_token": "REPLACE_WITH_REPOSITORY_INGEST_TOKEN",
+  "direct_logging_enabled": true,
+  "local_logging_enabled": false,
+  "timeout_seconds": 5,
+  "log_directory": "logs",
+  "retention_days": 14
+}

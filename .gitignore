@@ -1,0 +1,6 @@
+**/logscale.json
+**/logs/
+**/collector.local.yaml
+**/__pycache__/
+**/*.pyc
+.DS_Store

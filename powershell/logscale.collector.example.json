@@ -1,0 +1,6 @@
+{
+  "direct_logging_enabled": false,
+  "local_logging_enabled": true,
+  "log_directory": "logs",
+  "retention_days": 14
+}
