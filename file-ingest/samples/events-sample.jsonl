@@ -1,0 +1,5 @@
+{"timestamp":"2026-09-13T12:00:01.000Z","level":"INFO","message":"demo-service started","service":"demo"}
+{"timestamp":"2026-09-13T12:00:02.000Z","level":"WARN","message":"disk usage above 80 percent","service":"demo","disk_pct":81}
+{"timestamp":"2026-09-13T12:00:03.000Z","level":"ERROR","message":"connection to database timed out","service":"demo"}
+{"timestamp":"2026-09-13T12:00:04.000Z","level":"INFO","message":"retry succeeded","service":"demo"}
+{"timestamp":"2026-09-13T12:00:05.000Z","level":"INFO","message":"demo-service ready","service":"demo"}

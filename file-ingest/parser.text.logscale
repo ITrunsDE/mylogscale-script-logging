@@ -1,0 +1,2 @@
+regex("(?<timestamp>\\S+)\\s+(?<level>\\S+)\\s+(?<message>.*)")
+| parseTimestamp(field=timestamp)

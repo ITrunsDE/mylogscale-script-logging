@@ -1,0 +1,5 @@
+2026-09-13T12:00:01.000Z INFO demo-service started
+2026-09-13T12:00:02.000Z WARN disk usage above 80 percent
+2026-09-13T12:00:03.000Z ERROR connection to database timed out
+2026-09-13T12:00:04.000Z INFO retry succeeded
+2026-09-13T12:00:05.000Z INFO demo-service ready
