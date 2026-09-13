@@ -60,4 +60,14 @@ Never commit a real `logscale.json`. Tokens stay out of Git.
 
 ## Docs
 
-How-tos live under the mylogscale.com ingest series (overview: *Choose a LogScale ingest path for scripts, files, and syslog*). Update this README with public article URLs when those pages are published.
+How-tos ship next to each package (open the folder on GitHub to read them):
+
+| Path | Guide |
+|------|--------|
+| [powershell/README.md](powershell/README.md) | Add logging to an existing PowerShell script |
+| [bash/README.md](bash/README.md) | Add logging to an existing Bash script |
+| [python/README.md](python/README.md) | Add logging to an existing Python script |
+| [file-ingest/README.md](file-ingest/README.md) | Ingest an existing log file |
+| [docs/overview.md](docs/overview.md) | Choose a path (series overview) |
+
+Published mylogscale.com URLs can replace these once the articles go live.
